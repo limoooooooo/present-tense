@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Bk);
+		transition: color 0.15s ease-out;
+
+}
+
+h1 a:hover, p a:hover {
+	color: var(--Dg);
+}
+
+.nav-title h1 a:hover {
+	color: var(--Bk)!important;
+}
+
+
+/*  END RESET  */
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 120%;
+    padding: 8px;
+	color: #252525;
+}
+
+.strings {
+	display: none;
+} 
+
+.labelBtn {
+    background-color: #d5d5d5;
+    font-size: 13px;
+	line-height: 13px;
+    padding: 0 5px 0 5px;
+	margin: 0;
+	text-wrap: nowrap;
+}
+
+#btn-liam:hover {
+    color: #d5d5d5;
+	background-color: #020f84;
+}
+
+a.labelBtn {
+	background-color: #26d5d8;
+	color: #120696;
+}
+
+a.labelBtn:hover {
+	background-color: #b5ff8d;
+	color: #120696;
+}
+
+.time {
+	background-color: #3d28b1;
+	color: #ff8eff;
+}
+
+#btn-1 {
+    background-color: #f8f66c;
+    color: #fa2a00;
+}
+
+#btn-1:hover {
+    color: #f8f66c;
+    background-color: #fa2a00;
+}
+
+#btn-2 {
+    background-color: #35e469;
+    color: #113177;
+}
+
+#btn-2:hover {
+    color: #35e469;
+    background-color: #113177;
+}
+
+#btn-3 {
+    background-color: #dbcfae;
+    color: #6d09c5;
+}
+
+#btn-3:hover {
+    color: #dbcfae;
+    background-color: #6d09c5;
+}
+
+#btn-4 {
+    background-color: #000000;
+    color: #ff4646;
+}
+
+#btn-4:hover {
+    color: #000000;
+    background-color: #ff4646;
+}
+
+
