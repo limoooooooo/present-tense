@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
@@ -7,14 +7,12 @@
 <title>Present Tense</title>
 <link href="assets/style.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/png" href="/favicon.png">
+  <link id="favicon" rel="shortcut icon" href="assets/favicon/favi-1.png" type="image/x-icon">
 <meta name="description" content="Present Tense is an identity design studio for the here and now. We build iconic brands that are grounded in truth and clarity, giving businesses and communities the confidence to thrive in a challenging world.">
 <meta name="og:description" content="Present Tense is an identity design studio for the here and now. We build iconic brands that are grounded in truth and clarity, giving businesses and communities the confidence to thrive in a challenging world.">
 <meta name="keywords" content="branding, design studio, design, branding agency, design studio auckland, design studio nz, design studio new zealand, website design, campaign, graphic design, brand strategy, creative studio">
 <meta property="og:title" content="Present Tense">
 <meta property="og:url" content="https://present-tense.studio">
-
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-184TJJ78JH"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -23,7 +21,6 @@
 
   gtag('config', 'G-184TJJ78JH');
 </script>
-<script type="text/javascript" src="assets/main.js"></script>
 
 <body>
 
@@ -84,67 +81,7 @@
 
 <script src="assets/luxon.min.js"></script>
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-<script>
-   function showNext1() {
-    var typed = new Typed('#line-1', {
-      stringsElement: '#string-1',
-      typeSpeed: 3,
-      showCursor: false,
-    });
-   }
-
-   function showNext2() {
-    var typed = new Typed('#line-2', {
-      stringsElement: '#string-2',
-      typeSpeed: 3,
-      showCursor: false,
-    });
-   }
-
-   function showNext3() {
-    var typed = new Typed('#line-3', {
-      stringsElement: '#string-3',
-      typeSpeed: 3,
-      showCursor: false,
-    });
-   }
-
-   function showNext4() {
-    var typed = new Typed('#line-4', {
-      stringsElement: '#string-4',
-      typeSpeed: 3,
-      showCursor: false,
-    });
-   }
-
-   function showNextLiam() {
-    var typed = new Typed('#line-liam', {
-      stringsElement: '#string-liam',
-      typeSpeed: 3,
-      showCursor: false,
-    });
-   }
-
-   const { DateTime } = luxon;
-    
-
-    function updateTime() {
-      const aucklandTimeElement = document.getElementById('auckland-time');
-
-      const now = DateTime.local();
-      const aucklandTime = now.setZone('Pacific/Auckland');
-      
-
-      aucklandTimeElement.textContent = `${aucklandTime.toLocaleString(DateTime.TIME_WITH_SECONDS)} NZST`;
-    }
-
-    // Initial call and then update every second
-    updateTime();
-    setInterval(updateTime, 1000);
-
-
-  </script>
-
+<script type="text/javascript" src="assets/main.js"></script>
   
 
 
